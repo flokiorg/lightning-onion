@@ -5,7 +5,7 @@ require (
 	github.com/btcsuite/btclog v0.0.0-20241003133417-09c4e92e319c
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.4.0
-	github.com/flokiorg/go-flokicoin v0.26.2
+	github.com/flokiorg/go-flokicoin v0.26.3
 	github.com/stretchr/testify v1.11.1
 	github.com/urfave/cli v1.22.14
 	golang.org/x/crypto v0.52.0
