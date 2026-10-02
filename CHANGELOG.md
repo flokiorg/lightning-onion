@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.0.4]
+
+### Changed
+
+- Updated `go-flokicoin` to
+  [v0.26.2](https://github.com/flokiorg/go-flokicoin/releases/tag/v0.26.2), from
+  v0.25.13-alpha. 1.0.3 shipped before that release existed and so still pointed
+  at the old version.
+- Built with Go 1.26.8, up from 1.26.5. That closes four reachable stdlib
+  vulnerabilities reported by govulncheck -- GO-2026-6218 (net/url),
+  GO-2026-6090 (crypto/tls), GO-2026-5972 (encoding/asn1) and GO-2026-5026
+  (net/http) -- all fixed in 1.26.6. govulncheck now reports none.
+- `go mod tidy` pulled `golang.org/x/crypto` to v0.52.0 and `golang.org/x/sys`
+  to v0.45.0.
+
 ## [1.0.3]
 
 ### Changed
